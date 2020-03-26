@@ -4,10 +4,15 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #282828;
 }
 
 .login-area {
-    width: 800px;    
+    width: 800px;
+}
+
+.login-area h1 {
+    color: white;
 }
 
 .submit-area {
@@ -15,6 +20,7 @@ body {
     padding: 40px;
     border-radius: 10px;
     box-shadow: 5px 5px 10px gray;
+    background-color: beige;
 }
 
 #transaction-area {
